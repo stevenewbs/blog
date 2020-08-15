@@ -11,9 +11,9 @@ eWelink firmware 3.5+ changed the process of getting into Diy Mode and connectin
 * Tasmota binary releases - http://thehackbox.org/tasmota/release/
 * Sonoff Basic R3 Tasmota template - https://templates.blakadder.com/sonoff_basic_R3.html
 
+Get all these open ahead of time just for ease. 
 
-
-## Process
+## Process
 
 * Update the Basic R3 using eWelink app - must be > 3.1 (install app, pulg device into power, quick pair, update, delete device (resets wifi settings))
 * Open up the BR3 and put the jumper on the "OTA" pins. Jumper is included in the little bag of screws. 
