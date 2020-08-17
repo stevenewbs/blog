@@ -1,4 +1,6 @@
-# Quick and Dirty howto
+# Flashing a Sonoff Basic R3 with Tasmota
+
+### Quick and Dirty howto
 
 This is my "I just want to get this done" guide as of August 2020 (lots of the other guides are a bit outdataed and the Tasmota firmware main binary is now too big to flash initially). 
 eWelink firmware 3.5+ changed the process of getting into Diy Mode and connecting to your wifi (see [here](https://github.com/itead/Sonoff_Devices_DIY_Tools/issues/75#issuecomment-609036245)).
