@@ -18,7 +18,7 @@ Get all these open ahead of time just for ease.
 ## Process
 
 * Update the Basic R3 using eWelink app - must be > 3.1 (install app, pulg device into power, quick pair, update, delete device (resets wifi settings))
-* Open up the BR3 and put the jumper on the "OTA" pins. Jumper is included in the little bag of screws. 
+* Open up the BR3 and put the jumper on the "OTA" pins. Jumper is included in the little bag of screws. [See image for pins location.](https://tasmota.github.io/docs/Sonoff-DIY/#flash-the-firmware-and-confirm).
 * Power up the BR3 and long press (5s) the power button - blue led should short flash continuously
 * You should now see an ITEAD-XXX access point available. Connect to it (password is 12345678) and open http://10.10.7.1.
 * Enter the wifi network details. 
