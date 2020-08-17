@@ -23,7 +23,8 @@ Get all these open ahead of time just for ease.
 * You should now see an ITEAD-XXX access point available. Connect to it (password is 12345678) and open http://10.10.7.1.
 * Enter the wifi network details. 
 * Find the IP the device was given (easiest on the router DHCP table).
-* Grab the tasmota-lite.bin from the tasmota downloads page and get its sha256 sum. Put the file on the web server, available on the same network. 
+* Grab the tasmota-lite.bin from the tasmota downloads page and get its sha256 sum. Put the file on the web server, available on the same network.
+  - *Side note: Sonoff's docs for the API say the max firmware size is 508KB. And right now, the main Tasmota binary is bigger than that. However you can flash the "lite" version and then update later without an issue*. 
 * Follow the zeroconf commands as per the [Tasmota docs](https://tasmota.github.io/docs/Sonoff-DIY/#flash-the-firmware-and-confirm):
   - Info to make sure you have the right device.
   - Unlock OTA 
@@ -33,5 +34,5 @@ Get all these open ahead of time just for ease.
   - Connect
   - Enter wifi details
   - Configure the template
-* Finally update Firmware to normal tasmota binary - there seems to be a size limitation in the eWelink firmware for updates. Tasmota will happily update to a file bigger than this limit. 
-* Remember to `SetOption19 on` AND configure MQTT server (homeassistant is happy).
+* Finally update Firmware to normal tasmota binary. 
+* Remember to `SetOption19 on` AND configure MQTT server (homeassistant is now happy).
