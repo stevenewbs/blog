@@ -45,6 +45,8 @@ Apparmor may block access to your disk drive so you need to whitelist it.
 
 ## Libvirt / qemu config
 
+[This Unraid thread](https://forums.unraid.net/topic/33851-blu-ray-dvd-rom-passthrough/) gave some heavy hints for this section.
+
 1. Create the VM as you wish (make a note of the name). 
 
 2. List SCSI devices to get the ID of your Blu Ray drive:
