@@ -58,10 +58,11 @@ Apparmor may block access to your disk drive so you need to whitelist it.
     ...
    ```
    
-2. On the host, edit the VM's config:
-   `sudo virsh edit <VM NAME>`
+3. On the host, edit the VM's config:
    
-3. Add a section for a SCSI controller and a new hostdev device. These need to be within the `<devices>` tags - the file will re-generate with your changes afterwards anyway. 
+   `$ sudo virsh edit <VM NAME>`
+   
+4. Add a section for a SCSI controller and a new hostdev device. These need to be within the `<devices>` tags - the file will re-generate with your changes afterwards anyway. 
 
    A: A section similar to this may exist already. If not, add it. 
       ```
@@ -86,7 +87,7 @@ Apparmor may block access to your disk drive so you need to whitelist it.
    
    C: Save and exit the editor, hit `i` to try to ignore warnings about parsing the XML. 
 
-4. Boot up the VM.
+5. Boot up the VM.
 
 
   
